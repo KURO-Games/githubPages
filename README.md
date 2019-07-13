@@ -30,6 +30,47 @@ GithubPagesのページは index.html で初期ページに設定できます。
 ![testPage1](./Image/img5.PNG)  
 リポジトリができました。  
 ![testPage2](./Image/img6.PNG)  
-### GithubPagesを設定する
-
-
+### 3.リポジトリにソースをコミットする
+リポジトリにソースが無い状態だとGithubPagesの設定が出来ないため、簡単なソースをコミットします。  
+今回は下記のような簡単なものを作りました。  
+~~~  
+<html>  
+    <body>  
+        <center><h1>Hello Github Pages</h1></center>  
+    </body>  
+</html>  
+~~~  
+  
+はい、いつものHelloWorldです。  
+とりあえず、このソースコードの名前を**index.html**にして、コミットします。  
+今回はSourceTreeを使いました。  
+![commit](./Image/img9.PNG)  
+  
+コミットが完了しました。  
+![commit2](./Image/img10.PNG)  
+  
+今回のコードは、sampleの中に入れています。  
+  
+### 4.GithubPagesを設定する
+前回、コードをコミットしたので、GithubPagesを設定していきます。  
+GithubPagesの設定は、**Settings**の**Options**の下の方にあります。  
+![githubPages1](./Image/img7.PNG)  
+![githubPages2](./Image/img11.PNG)  
+今回は直下にindex.htmlファイルを置いているので、SourceのNoneのタブを開いて、master branchを選択します。
+![githubPagesSettings1](./Image/img12.PNG)  
+下の青い通知が出てきたら、設定は終了です。  
+![githubPagesSettings2](./Image/img13.PNG)  
+  
+### 5.公開したページを見てみる
+では、公開したページを見てみましょう。  
+先程設定したGithubPagesの設定を見ましょう。
+おそらく、  
+'Your site is ready to be published at https://(アカウント名).github.io/(リポジトリ名)'  
+のURLが出ていると思います。  
+![watchHP](./Image/img14.PNG)  
+それではURLをクリックしてみましょう。  
+ページが表示されたら完成です。  
+![homepage](./Image/img15.PNG)  
+  
+## 終わりに...
+GithubPagesの容量は、基本的にはなく(1GBを超えるとメール通知が来るらしい)、リポジトリ毎にGithubPagesも設定でき、なおかつ、ソース管理もできるので、ぜひ皆さんで広めていきましょう！
