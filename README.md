@@ -15,20 +15,20 @@ GithubPagesのページは index.html で初期ページに設定できます。
 ![signin](./Image/img16.png)
 ![signin-up](./Image/img18.png)
 ### 2.レポジトリを作る
-サインインができました。
+サインインができました。  
 ![signin-end](./Image/img2.PNG)
 それではリポジトリを作っていきます。  
-左上にある **NEW**をクリックして下さい。
+左上にある **NEW**をクリックして下さい。  
 ![new-repositories](./Image/img17.png)
-おそらくこんな画面が出てきたと思います。
+おそらくこんな画面が出てきたと思います。  
 ![new-repositories-disp](./Image/img3.PNG)
 リポジトリの名前は**なるべく英語で**作るようにしましょう。  
 またルートフォルダを作りたい方は’自分のアカウント名’.github.io にしましょう。  
 今回は**testPage**というフォルダーを作ろうと思います。  
 注意点は**パブリックリポジトリ**にしてください。表示できなくなります。  
-書けたらCreate Repositoryを押します。
+書けたらCreate Repositoryを押します。  
 ![testPage1](./Image/img5.PNG)
-リポジトリができました。
+リポジトリができました。  
 ![testPage2](./Image/img6.PNG)
 ### GithubPagesを設定する
 
